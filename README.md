@@ -2,7 +2,6 @@
 NAME:K.ABHINESWAR REDDY
 
 REG NO:212223040084
-
 ## Aim :
 To find (a) average number of materials in the system (b) average number of materials in the each conveyor of (c) waiting time of each material in the system (d) waiting time of each material in each conveyor, if the arrival  of materials follow Poisson process with the mean interval time 12 seconds, service time of  lathe machine in series follow exponential distribution  with service time  1 second, 1.5 seconds and 1.3 seconds respectively and average service time of robot is 7 seconds.
 
@@ -20,11 +19,13 @@ Visual components and Python
 
 
 ## Experiment:
-![243261669-9e252a77-df6b-410c-b22b-2db70a586d97](https://github.com/23012312/Open-Jacson-Networks/assets/150009714/a1235a7a-91c6-4dac-8e88-55b3527fff52)
 
-![243261678-323ed3a3-45ed-4559-9012-23d73369af6d](https://github.com/23012312/Open-Jacson-Networks/assets/150009714/974d45bd-61b2-4737-a11a-7027bd74cbbf)
+![P7](https://github.com/21005688/Open-Jacson-Networks/assets/94747031/9e252a77-df6b-410c-b22b-2db70a586d97)
+
+
 
 ## Program
+```
 
 arr_time=float(input("Enter the mean inter arrival time of objects from Feeder (in secs): "))
 ser_time1=float(input("Enter the mean  inter service time of Lathe Machine 1 (in secs) :  "))
@@ -63,9 +64,14 @@ if (lam <  mu1) and (lam <  mu2) and (lam <  mu3):
 else:
     print("Warning! Objects Over flow will happen in the conveyor")
 print("----------------------------------------------------------------------")
+```
+
+
+
 
 ## Output
-![243261541-d61c45cf-04e3-4052-aeb4-ebb3cbe9ac2d](https://github.com/23012312/Open-Jacson-Networks/assets/150009714/6263d4a2-a571-4355-986e-f0e3bf857bf5)
+![P6](https://github.com/21005688/Open-Jacson-Networks/assets/94747031/d61c45cf-04e3-4052-aeb4-ebb3cbe9ac2d)
+
 
 ## Result
 The average number of material in the sysytem and in the conveyor and waiting time are successfully found.
